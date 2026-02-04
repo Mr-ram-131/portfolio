@@ -260,6 +260,29 @@ section {
   }
 
 }
+/* FORCE NAVBAR HORIZONTAL ON MOBILE */
+@media (max-width: 768px) {
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+    align-items: center;
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: inline-block !important;
+    list-style: none;
+  }
+
+}
+
 /* FIX MOBILE NAVBAR HORIZONTAL */
 @media (max-width: 768px) {
 
@@ -278,7 +301,4 @@ section {
   }
 
 }
-
-
-
 

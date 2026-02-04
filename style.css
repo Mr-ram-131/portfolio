@@ -206,3 +206,38 @@ a:hover{
   transform: scale(1.05);
 }
 
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    position: relative;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 20px 15px;
+}
+
+.btn {
+  padding: 12px 18px;
+  font-size: 16px;
+}
+
